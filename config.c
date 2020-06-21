@@ -1,0 +1,7 @@
+char *CONF_MQTT_HOSTNAME = "torabito.com";
+// char *CONF_MQTT_HOSTNAME = "192.168.8.100";
+char *CONF_WIFI_SSID = "PLAY INTERNET 4G LTE-D7A6";
+char *CONF_WIFI_PASSWORD = "21393848";
+
+int CONF_MQTT_PORT = 9000;
+char *CORE_VERSION = "1.0.0-dev";
