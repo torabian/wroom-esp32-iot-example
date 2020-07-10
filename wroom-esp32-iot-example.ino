@@ -2,10 +2,14 @@
 #include "connection.h"
 #include <ArduinoJson.h>
 
+// You need to create an account on https://torabito.com and then navigate to Access Token section,
+// Create a token, and paste it here. This is a sample token string, won't work for you :)
+String token = String("59a9e7e2cd40666452a9501b31e91d01d5f08492");
+
+
 long randomNumber;
 long randomNumber2;
 
-String token = String("59a9e7e2cd40666452a9501b31e91d01d5f08492"); // For torabito
 // String token = String("e713893e899e4686d550cdc3826cfad35341736a");
 String topic = String("/device/" + token + "/set");
 
